@@ -6,7 +6,7 @@ const server = http.createServer(app)
 
 app.set('json spaces', 2)
 app.get('/', (req, res) => {
-  res.send(`Welcome to GitLab workspace demo NodeJS Express app! <br/><br/>
+  res.send(`Hello world<br/><br/>
   You can browse <br/>
   - <a href="https://${req.headers.host}/text">https://${req.headers.host}/text</a> for Text response <br/>
   - <a href="https://${req.headers.host}/json">https://${req.headers.host}/json</a> for JSON response <br/>
