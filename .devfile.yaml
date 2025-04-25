@@ -1,11 +1,6 @@
 schemaVersion: 2.2.0
-components:
+doodles:
   - name: tooling-container
-    attributes:
-      gl/inject-editor: true
-    container:
-      # NOTE: THIS IMAGE EXISTS ONLY FOR DEMO PURPOSES AND WILL NOT BE MAINTAINED
-      image: registry.gitlab.com/gitlab-org/workspaces/gitlab-workspaces-docs/nodejs:22.13.1-ubuntu-24.04
       memoryRequest: 1024M
       memoryLimit: 2048M
       cpuRequest: 500m
